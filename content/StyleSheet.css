@@ -1,0 +1,233 @@
+﻿
+
+/*Samma på alla sidor*/
+body {
+    /*background: url('../content/images/background1.png');
+    /*background-color: #fbfbfb;*/
+}
+
+header {
+    
+    background-color: #fff;
+    background: url('images/bg.jpg');
+}
+
+#logo {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #ad0418;
+    margin-bottom: 0;
+    font-family: calibri;
+    font-size: 20px;
+    border-radius: 0;
+    min-height: 0;   
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background: url('images/bg.jpg') #fff;
+    color: #000;
+}
+
+
+.nav li a {
+    padding: 4px 15px;
+    margin-top: -1px;
+    color: #fff;
+    margin-bottom: -1px;
+    border-radius: 0;
+   
+
+}
+.navbar-collapse.in {
+    overflow-y: initial;
+}
+
+
+.nav li a:hover {
+   
+    background: url('images/bg.jpg') #cacaca;
+    color: #000;
+}
+
+.nav-pills>li+li {
+    margin-left: 0;
+}
+
+.nav-pills>li.active>a{
+    background: url('images/bg.jpg') #fff;
+    color: #000;
+}
+
+.nav-pills>li.active>a:hover {
+        background: url('images/bg.jpg') #fff;
+    color: #000;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.dropdown-menu li a {
+    color: #000;
+    font-size: inherit;
+}
+
+.dropdown-menu li a:hover {
+     background: url('images/bg.jpg') #cacaca;
+}
+
+#welcome {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section {
+    background: url('../content/images/bg.jpg') #fbfbfb;
+    
+}
+
+h1 {
+    cursor: default;
+    color: #013b8d;
+    font-weight: bold;
+    font-family: calibri;
+    
+}
+
+h2 {
+    font-family: calibri;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background: url('../content/images/bg.jpg') rgba(211, 211, 211, 0.8);
+    border-top: 2px #cacaca;
+    font-family: cambria;
+    color: #5b5b5b;
+    font-size: 14px;
+}
+
+    footer p {
+        margin-top: 10px;
+        
+  
+    }
+
+.icon {
+    margin-right: 25px;
+}
+
+#karta {
+    float: right;
+}
+
+@media screen and (max-width: 640px){
+   .objekt {
+      width: 80%; }
+}
+
+
+
+
+
+/*Slider*/
+#slider {
+    
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+.carousel-inner {
+    box-shadow: 10px 10px 40px #5b5b5b;
+}
+
+#slider img {
+     border: solid 2px #cacaca;
+    
+}
+
+/*Ikoner*/
+
+#content {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.objekt {
+    width: 40%;
+    
+}
+
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    display: inline-block;
+}
+
+/*Handbok*/
+object {
+    margin-bottom: -10px;
+}
+
+/*Program*/
+
+h5 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #013b8d;
+}
+
+.utb {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.prog {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+
+button {
+    height: 30px;
+    margin-bottom: 20px;
+    float: right;
+    background-color: #013b8d;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.utb .col-xs-8  {
+    padding-right: 50px;
+}
+
+.utb .col-xs-8 h4 {
+    color: #013b8d;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.utb .col-xs-8 p {
+    font-size: 1.2em;
+}
+
+
+/*-El-*/
